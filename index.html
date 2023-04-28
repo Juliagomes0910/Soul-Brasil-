@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>Formulário</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="estilo.css">
+  </head>
+  <body>
+    <header>
+     <figure> <img src="imagens/logo.png" ></figure>
+    </header>
+
+    <main>
+    <form>
+      <h2>Cadastro para Artistas</h2>
+
+      <h3>Informações pessoais </h3>
+      <label>Nome completo: </label><br>
+      <input type="text" name="nome" placeholder="seu nome..." required size="40"><br>
+      <label>RG: </label><br>
+      <input type="text" name="RG" placeholder="00.000.000-00" required maxlength="7" size="20"><br>
+      <label>CPF: </label><br>
+      <input type="text" name="CPF" placeholder="000.000.000-00" required maxlength="11" size="20"><br>
+      <label>Data de nascimento: </label><br>
+      <input type="date" name="datenasc" placeholder="00/00/0000" required maxlength="8" size="20"><br>
+
+      <h3>Dados para contato: </h3>
+      
+      <label>Endereço: </label><br>
+      <input type="text" name="end" required size="40"><br>
+      <label>Bairro:</label><br>
+      <input type="text" name="bairro" size="20" requiered0><br>
+      <label>Estado: </label><br>
+      <select name="estado" required>
+        <option selected value="SP">AC</option>
+        <option value="SP">AL</option>
+        <option value="SP">AP</option>
+        <option value="SP">AM</option>
+        <option value="SP">BA</option>
+        <option value="SP">CE</option>
+        <option value="SP">ES</option>
+        <option value="SP">GO</option>
+        <option value="SP">MA</option>
+        <option value="SP">MT</option>
+        <option value="SP">MS</option>
+        <option value="SP">MG</option>
+        <option value="SP">PA</option>
+        <option value="SP">PB</option>
+        <option value="SP">PR</option>
+        <option value="SP">PE</option>
+        <option value="SP">PI</option>
+        <option value="SP">RJ</option>
+        <option value="SP">RN</option>
+        <option value="SP">RS</option>
+        <option value="SP">RO</option>
+        <option value="SP">RR</option>
+        <option value="SP">SC</option>
+        <option value="SP">SP</option>
+        <option value="SP">SE</option>
+        <option value="SP">TO</option>
+        <option value="SP">DF</option>
+      </select><br>
+      <label>Telefone para contato: </label><br>
+      <input type="tel" name="telefone" placeholder="(00) 00000-0000"  size="18" required><br>
+      <label>E-mail: </label><br>
+      <input type="email" name="email" size="40" required><br>
+
+      <h3>Dados Profissionais: </h3>
+
+      <label>Formação:</label>
+      <textarea></textarea><br>
+      <label>Área que atua:</label>
+      <textarea></textarea><br>
+      <label>Principais habilidades:</label>
+      <textarea></textarea><br>
+      <label>Informações importantes:</label>
+      <textarea></textarea><br>
+      <input type="submit" value="ENVIAR">
+    </form>
+    </main>
+
+  <footer>
+    <p>Agradecemos a sua preferência! </p>
+  </footer>
+
+</body>
+</html>
